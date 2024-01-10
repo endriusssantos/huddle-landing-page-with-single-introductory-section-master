@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.register {
+    text-decoration: none;
+    color: var(--background-color)
+}

@@ -1,0 +1,61 @@
+@media (max-width: 425px) {
+    header {
+        margin: 20px 0px 50px 30px;
+    }
+
+    header img {
+        width: 130px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-1 {
+        margin-right: 50px;
+    }
+
+    main img {
+        width: 250px;
+    }
+
+    .main-2 {
+        margin: 30px 80px 80px 80px;
+    }
+
+    h1 {
+        padding-right: 50px;
+    }
+
+    p {
+        padding-right: 50px;
+    }
+
+    footer {
+        margin: 0px 95px 10px 0px;
+        margin-right: 95px;
+    }
+
+    .footer a {
+        padding: 7px 7px 3px;
+        border: 1px solid white;
+        border-radius: 50px;
+        color: var(--color);
+    }
+
+    .fa-facebook {
+        font-size: 25px;
+    }
+
+    .fa-twitter {
+        font-size: 25px;
+    }
+
+    .fa-instagram {
+        font-size: 25px;
+    }
+}
