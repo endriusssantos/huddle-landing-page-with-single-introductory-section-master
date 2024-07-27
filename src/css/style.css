@@ -2,6 +2,7 @@ body {
     background-color: var(--background-color);
     font-family: 'Poppins', sans-serif;
     background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
 }
 
 header {
@@ -21,19 +22,25 @@ main {
     margin: 180px 80px;
 }
 
-h1 {
+.main-2 h1 {
     padding: 20px 0;
     color: var(--color);
     font-weight: 600;
 }
 
-p {
+.main-2 p {
     padding: 20px 0;
     color: var(--color);
     font-weight: 400;
 }
 
-.register {
+.main-2 buttom {
+    padding: 20px 0;
+    color: var(--color);
+    font-weight: 400;
+}
+
+.main-2 .register {
     background-color: #FFFFFF;
     padding: 15px 65px;
     border-radius: 50px;
@@ -41,27 +48,29 @@ p {
     font-weight: 400;
 }
 
-.register:hover {
+.main-2 .register:hover {
     background-color: hsl(300, 69%, 71%);
     color: hsl(0, 0%, 100%);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.footer {
+.footer nav ul {
     display: flex;
     justify-content: flex-end;
     gap: 20px;
     padding-right: 70px;
 }
 
-.footer a {
-    padding: 7px 9px 6px;
+.footer nav li a {
+    padding: 22px 9px 6px;
     border: 1px solid white;
     border-radius: 50px;
     color: var(--color);
 }
 
-.fa-facebook {
+.fa-facebook-f {
     font-size: 35px;
+    padding: 0px 6px;
 }
 
 .fa-twitter {

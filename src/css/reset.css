@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+li {
+    list-style: none;
+}
+
 .register {
     text-decoration: none;
     color: var(--background-color)

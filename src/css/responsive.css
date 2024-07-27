@@ -1,4 +1,9 @@
 @media (max-width: 425px) {
+    body {
+        background-image: url(../images/bg-mobile.svg);
+        background-size: cover;
+    }
+
     header {
         margin: 20px 0px 50px 30px;
     }
@@ -20,42 +25,47 @@
     }
 
     main img {
-        width: 250px;
+        padding-left: 50px;
+        width: 350px;
     }
 
     .main-2 {
-        margin: 30px 80px 80px 80px;
+        margin: 30px 80px 30px 80px;
     }
 
     h1 {
         padding-right: 50px;
+        font-size: 24px;
     }
 
     p {
         padding-right: 50px;
+        font-size: 15px;
     }
 
-    footer {
-        margin: 0px 95px 10px 0px;
-        margin-right: 95px;
+    .footer nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
     }
 
-    .footer a {
-        padding: 7px 7px 3px;
+    .footer nav ul li a {
+        padding: 7px 6px 3px;
         border: 1px solid white;
         border-radius: 50px;
         color: var(--color);
     }
 
-    .fa-facebook {
-        font-size: 25px;
+    .fa-facebook-f {
+        font-size: 20px;
     }
 
     .fa-twitter {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .fa-instagram {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
